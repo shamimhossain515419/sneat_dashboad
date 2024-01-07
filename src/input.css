@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+       font-family: Roboto ;
+}
+.secondary_color{
+      color: #757575;
+}
+.primary_color{
+      color: #212121;
+}
+
+.progress-bar-container {
+     width: 8rem;
+     height: 8rem;
+   }
+ 
+   .progress-bar {
+     transform: rotate(90deg);
+   }
