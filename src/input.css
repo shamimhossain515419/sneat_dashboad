@@ -2,21 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-       font-family: Roboto ;
+body {
+      font-family: Roboto;
 }
-.secondary_color{
+
+.secondary_color {
       color: #757575;
 }
-.primary_color{
+
+.primary_color {
       color: #212121;
 }
 
 .progress-bar-container {
-     width: 8rem;
-     height: 8rem;
-   }
- 
-   .progress-bar {
-     transform: rotate(90deg);
-   }
+      width: 8rem;
+      height: 8rem;
+}
+
+.progress-bar {
+      transform: rotate(90deg);
+}
+
+.SidebarScrollBar::-webkit-scrollbar {
+      width: 6px;
+      margin: 2px;
+
+}
+
+.SidebarScrollBar::-webkit-scrollbar-thumb {
+      background-color: #98999B;
+      border-radius: 10px;
+}
