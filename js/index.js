@@ -63,3 +63,21 @@ clickCharts.onclick = () => {
      chartArrow.classList.remove("fa-align-left")
 
 }
+
+
+
+//  profile modal 
+
+  const openModal=document.getElementById("openModal")
+  const profileModal=document.getElementById("profileModal")
+
+
+  profileModal.onclick =()=>{
+     openModal.classList.toggle("w-[220px]")
+      
+  }
+  openModal.onclick =()=>{
+     openModal.classList.add("w-[0px]")
+     openModal.classList.remove("w-[220px]")
+      
+  }
