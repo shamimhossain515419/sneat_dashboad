@@ -21,17 +21,20 @@ closeSearchbar.onclick = () => {
 
 openSidebar.onclick = () => {
      sidebar.classList.add("w-[358px]");
-     sidebar.classList.remove("hidden");
+     sidebar.classList.remove("w-[0px]");
      openSidebar.classList.add("hidden");
      closeSidebar.classList.remove("hidden");
      closeSidebar.classList.add("block");
+     
 }
 closeSidebar.onclick = () => {
+  
      sidebar.classList.remove("w-[358px]");
-     sidebar.classList.add("hidden");
+     sidebar.classList.add("w-[0px]");
      closeSidebar.classList.add("hidden");
      openSidebar.classList.remove("hidden");
      openSidebar.classList.add("block");
+ 
 }
 
 
